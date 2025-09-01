@@ -4,8 +4,8 @@ email:
 description: "Insightful description."
 baseurl: ""
 url: "https://tokarskipatryk.github.io"
-twitter_username: tokarskipatryk
-github_username:  tokarooo
+twitter_username: tokarooo
+github_username: tokarskipatryk
 
 # Build settings
 markdown: kramdown
