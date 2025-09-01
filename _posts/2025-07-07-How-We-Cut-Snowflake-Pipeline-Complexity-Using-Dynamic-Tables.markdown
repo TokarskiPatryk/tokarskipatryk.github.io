@@ -21,7 +21,7 @@ Thanks for reading Data Engineering Toolkit! Subscribe for free to receive new p
 
 [Dynamic tables](https://docs.snowflake.com/en/user-guide/dynamic-tables-about) in Snowflake are tables that refresh automatically on a defined schedule, moving and transforming data from specified sources. They can take one or more tables in the transformation script and can look only for changes in source tables, incrementally moving data which speeds up the process when dealing with large tables.
 
-![Visual representation of automated refresh process between base objects and dynamic tables](../assets/dynamic_tables_sf.webp)
+![Visual representation of automated refresh process between base objects and dynamic tables](/assets/dynamic_tables_sf.webp)
 
 Source: [https://docs.snowflake.com/en/user-guide/dynamic-tables-about](https://docs.snowflake.com/en/user-guide/dynamic-tables-about)
 
@@ -34,7 +34,7 @@ Without dynamic tables, we would need to create target tables ourselves, define 
 In our old architecture, we used procedures and tasks chained together in a pipeline to transform streamed data from S3. These procedures dynamically created code to merge selected subsets of queries (from the previous successful timestamp of a given table transformation up to the execution time of the task) for every table that needed to be transformed. Meanwhile, data was deduplicated: some records were modified with new values, some were added, and some were marked as retired.
 
 
-[Example pipeline of procedures and tasks used to ETL streaming data.](../assets/dynamic_tables_pipeline.webp)
+![Example pipeline of procedures and tasks used to ETL streaming data.](/assets/dynamic_tables_pipeline.webp)
 
 
 We also needed to implement parallel processing of tables because the default solution processed them one by one with dynamic SQL, which made the process longer. Implementing parallel transformation procedures sped up the process but further complicated maintenance.
