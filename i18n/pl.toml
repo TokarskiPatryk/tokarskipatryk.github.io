@@ -1,0 +1,26 @@
+[home_actions_label]
+other = "Główna nawigacja"
+
+[about]
+other = "O mnie"
+
+[blog]
+other = "Blog"
+
+[projects]
+other = "Projekty"
+
+[contact]
+other = "Kontakt"
+
+[about_card_copy]
+other = "Zwięzłe podsumowanie mojego doświadczenia w data engineeringu, edukacji i obecnego kierunku pracy."
+
+[blog_card_copy]
+other = "Krótkie notatki o pipeline'ach danych, automatyzacji, chmurze i praktycznych wnioskach inżynierskich."
+
+[projects_card_copy]
+other = "Brama do zewnętrznych projektów i wybranych repozytoriów."
+
+[contact_card_copy]
+other = "Najszybsza droga kontaktu oraz kanały, z których naprawdę korzystam."

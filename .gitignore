@@ -1,0 +1,14 @@
+# Hugo build output
+public/
+resources/_gen/
+.hugo_build.lock
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+
+# Editor and local workspace files
+.vscode/
+*.code-workspace

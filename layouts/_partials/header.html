@@ -1,0 +1,54 @@
+<nav class="navigation">
+  <section class="container">
+    {{ with .Site }}
+    <a class="navigation-title" href="{{ absLangURL "" }}">
+      {{ .Title }}
+    </a>
+    {{ end }}
+    {{ if or .Site.Menus.main hugo.IsMultilingual }}
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        {{ with .Site.Menus.main }}
+          {{ range sort . }}
+            <li class="navigation-item">
+              <a class="navigation-link {{ .Params.class }}" href="{{ index (apply (slice .URL) (.Params.urlFunc | default "relLangURL") ".") 0 }}">{{ .Name }}</a>
+            </li>
+          {{ end }}
+        {{ end }}
+        {{ if hugo.IsMultilingual }}
+          {{ $translations := default .Site.Home.AllTranslations .AllTranslations }}
+          {{ $current := .Site.Language.Lang }}
+          <li class="navigation-item navigation-item--lang">
+            <details class="lang-switcher">
+              <summary class="navigation-link lang-switcher__summary">
+                {{ if eq $current "pl" }}
+                  🇵🇱
+                {{ else }}
+                  🇬🇧
+                {{ end }}
+              </summary>
+              <ul class="lang-switcher__menu">
+                {{ range sort $translations "Language.Weight" }}
+                  <li>
+                    <a class="navigation-link" href="{{ .RelPermalink }}">
+                      {{ if eq .Language.Lang "pl" }}
+                        🇵🇱 Polski
+                      {{ else if eq .Language.Lang "en" }}
+                        🇬🇧 English
+                      {{ else }}
+                        {{ .Language.LanguageName | emojify }}
+                      {{ end }}
+                    </a>
+                  </li>
+                {{ end }}
+              </ul>
+            </details>
+          </li>
+        {{ end }}
+      </ul>
+    {{ end }}
+  </section>
+</nav>

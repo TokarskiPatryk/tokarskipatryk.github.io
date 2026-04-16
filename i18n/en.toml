@@ -1,0 +1,26 @@
+[home_actions_label]
+other = "Primary navigation"
+
+[about]
+other = "About"
+
+[blog]
+other = "Blog"
+
+[projects]
+other = "Projects"
+
+[contact]
+other = "Contact"
+
+[about_card_copy]
+other = "A recruiter-friendly summary of my data engineering experience, education, and current focus."
+
+[blog_card_copy]
+other = "Short notes on data pipelines, automation, cloud tooling, and practical engineering lessons."
+
+[projects_card_copy]
+other = "A link hub for external work and selected repositories."
+
+[contact_card_copy]
+other = "The fastest way to reach me, plus links to the channels I actually check."
