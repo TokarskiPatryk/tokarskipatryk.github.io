@@ -16,3 +16,9 @@ Najlepiej kontaktować się ze mną przez e-mail lub LinkedIn.
 Te dwa kanały sprawdzam najczęściej.
 
 Jeśli interesuje Cię współpraca przy projektach związanych z danymi, zapraszam do kontaktu.
+
+## Dane formalne
+
+- **Nazwa działalności:**  Patryk Tokarski IT
+- **Forma prawna:**  JDG
+- **NIP:**  7963045773

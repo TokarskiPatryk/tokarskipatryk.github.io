@@ -21,31 +21,18 @@
         {{ if hugo.IsMultilingual }}
           {{ $translations := default .Site.Home.AllTranslations .AllTranslations }}
           {{ $current := .Site.Language.Lang }}
+          {{ .Scratch.Set "enLink" "/" }}
+          {{ .Scratch.Set "plLink" "/pl/" }}
+          {{ range $translations }}
+            {{ if eq .Language.Lang "en" }}{{ $.Scratch.Set "enLink" .RelPermalink }}{{ end }}
+            {{ if eq .Language.Lang "pl" }}{{ $.Scratch.Set "plLink" .RelPermalink }}{{ end }}
+          {{ end }}
           <li class="navigation-item navigation-item--lang">
-            <details class="lang-switcher">
-              <summary class="navigation-link lang-switcher__summary">
-                {{ if eq $current "pl" }}
-                  🇵🇱
-                {{ else }}
-                  🇬🇧
-                {{ end }}
-              </summary>
-              <ul class="lang-switcher__menu">
-                {{ range sort $translations "Language.Weight" }}
-                  <li>
-                    <a class="navigation-link" href="{{ .RelPermalink }}">
-                      {{ if eq .Language.Lang "pl" }}
-                        🇵🇱 Polski
-                      {{ else if eq .Language.Lang "en" }}
-                        🇬🇧 English
-                      {{ else }}
-                        {{ .Language.LanguageName | emojify }}
-                      {{ end }}
-                    </a>
-                  </li>
-                {{ end }}
-              </ul>
-            </details>
+            <span class="lang-inline">
+              <a class="navigation-link{{ if eq $current "en" }} lang-inline__active{{ end }}" href="{{ .Scratch.Get "enLink" }}" aria-label="Switch to English">🇬🇧</a>
+              <span class="lang-inline__sep">/</span>
+              <a class="navigation-link{{ if eq $current "pl" }} lang-inline__active{{ end }}" href="{{ .Scratch.Get "plLink" }}" aria-label="Przełącz na polski">🇵🇱</a>
+            </span>
           </li>
         {{ end }}
       </ul>

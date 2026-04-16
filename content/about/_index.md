@@ -16,6 +16,25 @@ I am open to collaboration on data-related work in companies, especially around 
 - **Cloud and infrastructure:** Azure, Synapse, Docker, Linux
 - **Databases:** PostgreSQL, MSSQL
 
+## Cooperation
+
+I collaborate with companies in Poland and the EU in the following areas:
+
+- **Designing data system architecture**
+- **Implementing ETL/ELT pipelines**
+- **dbt and data modeling**
+- **Snowflake implementations**
+- **Data system audits**
+- **Ad-hoc consulting and technical advisory**
+
+Preferred collaboration model:
+
+- **B2B project work**
+- **Hourly consulting**
+- **Part-time engagement**
+- **Remote work (PL/UE) and occasional on-site (PL/UE)**
+- **Communication in Polish and English**
+
 ## Selected achievements
 
 - As part of the delivery team, contributed to migrating a legacy Java and Kafka insurance reporting system to Fivetran + Snowflake. My scope covered implementation tasks and solution improvements that supported reducing refresh frequency from daily to every 15 minutes.

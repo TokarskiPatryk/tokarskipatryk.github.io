@@ -68,7 +68,7 @@ pagerSize = 10
     keywords = "Patryk Tokarski, data engineer, Python, SQL, Snowflake, Azure, blog"
 
   [[languages.en.menu.main]]
-    name = "About"
+    name = "About me"
     weight = 1
     url = "about/"
 

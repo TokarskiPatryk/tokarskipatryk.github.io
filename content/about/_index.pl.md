@@ -16,6 +16,25 @@ Jestem otwarty na współpracę przy projektach związanych z danymi w firmach, 
 - **Chmura i infrastruktura:** Azure, Synapse, Docker, Linux
 - **Bazy danych:** PostgreSQL, MSSQL
 
+## Współpraca
+
+Współpracuję z firmami z Polski i UE w następujących obszarach:
+
+- **Projektowanie architektury systemów danych**
+- **Wdrażanie pipeline'ów ETL/ELT**
+- **dbt i modelowanie danych**
+- **Implementacje Snowflake**
+- **Audyty systemów danych**
+- **Konsultacje ad-hoc i wsparcie techniczne**
+
+Preferowany model współpracy:
+
+- **B2B projektowo**
+- **Konsultacje godzinowe**
+- **Współpraca part-time**
+- **Praca zdalna (PL/UE) oraz okazjonalnie on-site (PL/UE)**
+- **Komunikacja po polsku i po angielsku**
+
 ## Wybrane osiągnięcia
 
 - Jako członek zespołu wdrożeniowego brałem udział w migracji starszego systemu raportowania ubezpieczeniowego (Java + Kafka) do architektury Fivetran + Snowflake. Odpowiadałem za implementację rozwiązań, poprawki oraz sugestie architektoniczne, co wspierało skrócenie odświeżania danych z doby do 15 minut.
