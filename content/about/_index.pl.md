@@ -33,7 +33,6 @@ Preferowany model współpracy:
 - **Konsultacje godzinowe**
 - **Współpraca part-time**
 - **Praca zdalna (PL/UE) oraz okazjonalnie on-site (PL/UE)**
-- **Komunikacja po polsku i po angielsku**
 
 ## Wybrane osiągnięcia
 

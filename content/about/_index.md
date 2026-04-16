@@ -33,7 +33,6 @@ Preferred collaboration model:
 - **Hourly consulting**
 - **Part-time engagement**
 - **Remote work (PL/UE) and occasional on-site (PL/UE)**
-- **Communication in Polish and English**
 
 ## Selected achievements
 

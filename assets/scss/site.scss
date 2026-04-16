@@ -109,7 +109,13 @@
 .lang-inline {
   display: inline-flex;
   align-items: center;
-  gap: 0.35rem;
+  gap: 0;
+}
+
+.navigation .navigation-list .navigation-item--lang .lang-inline .navigation-link,
+.navigation .navigation-list .navigation-item--lang .lang-inline .lang-inline__sep {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .lang-inline .navigation-link {

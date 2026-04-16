@@ -24,3 +24,6 @@ other = "A link hub for external work and selected repositories."
 
 [contact_card_copy]
 other = "The fastest way to reach me, plus links to the channels I actually check."
+
+[powered_by]
+other = "Site powered by"
