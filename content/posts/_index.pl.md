@@ -3,4 +3,4 @@ title = "Blog"
 description = "Notatki o data engineeringu, automatyzacji i praktycznej pracy inżynierskiej."
 +++
 
-Krótkie notatki o data engineeringu, automatyzacji, narzędziach chmurowych i praktycznych lekcjach z budowy realnych systemów.
+Konkretne wpisy o data engineeringu i nie tylko: decyzje architektoniczne, automatyzacja, rozwiązania, które sprawdzają się w realnych projektach.

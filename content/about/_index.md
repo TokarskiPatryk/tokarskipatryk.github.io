@@ -6,48 +6,35 @@ layout = "single"
 
 ## Profile
 
-Data Engineer and Consultant at Sollers Consulting, focused on cloud data platforms, ETL/ELT delivery, and data quality.
+Data Engineer at Sollers Consulting, focused on cloud data platforms, ETL/ELT delivery, and data quality.
 I am open to collaboration on data-related work in companies, especially around designing, implementing, and auditing data systems.
 
 ## Key competencies
 
 - **Data engineering:** Snowflake, dbt, Fivetran, ETL/ELT pipelines, data modeling, data validation
-- **Programming and analytics:** SQL, Python, R
-- **Cloud and infrastructure:** Azure, Synapse, Docker, Linux
-- **Databases:** PostgreSQL, MSSQL
-
-## Cooperation
-
-I collaborate with companies in Poland and the EU in the following areas:
-
-- **Designing data system architecture**
-- **Implementing ETL/ELT pipelines**
-- **dbt and data modeling**
-- **Snowflake implementations**
-- **Data system audits**
-- **Ad-hoc consulting and technical advisory**
-
-Preferred collaboration model:
-
-- **B2B project work**
-- **Hourly consulting**
-- **Part-time engagement**
-- **Remote work (PL/UE) and occasional on-site (PL/UE)**
+- **Programming and analytics:** SQL, Python, R, PySpark
+- **Cloud and infrastructure:** AWS (S3), GitHub Actions, Azure (DevOps, Synapse, AI Foundry), Docker, Linux
+- **Databases:** PostgreSQL, DuckDB, MSSQL
 
 ## Selected achievements
 
-- As part of the delivery team, contributed to migrating a legacy Java and Kafka insurance reporting system to Fivetran + Snowflake. My scope covered implementation tasks and solution improvements that supported reducing refresh frequency from daily to every 15 minutes.
-- Co-developed and maintained dbt transformations and models in Snowflake based on a Common Data Model, with direct implementation work and input on architecture decisions.
-- Delivered PoCs using Snowflake, dbt, Liquibase, Azure Synapse, and related Azure services.
-- Earlier role: created Power BI dashboards, managed Azure Active Directory for 900+ users, and automated deployment tasks.
+### Building Common Data Model for a Leading London Market Broker
+
+- Implemented dbt/Snowflake models for a shared data model spanning multiple similar client data sources.
+- Designed and implemented CI/CD in dbt Cloud (DEV/STG/PROD), with project structure standards, naming conventions, and quality gates before merge.
+- Collaborated with architects and client stakeholders to clarify requirements and make scalability decisions for onboarding additional source system types.
+- Onboarded new team members, prepared project onboarding documentation, and provided code reviews and technical feedback.
+
+### Migrating On-prem Reporting System to Cloud for a Leading London Market Insurer
+
+- Reverse-engineered transformation logic from Java to SQL and implemented Snowflake procedures for the reporting layer.
+- Improved ingestion and transformation pipelines (Fivetran + Snowflake + S3/CDC), including incremental refresh optimization.
+- Built a Python (`multiprocessing`, `pandas`) parallel ingestion workflow for Parquet files from S3 to Snowflake staging; reduced ingestion time from about 4h to about 45 minutes.
+- Supported reconciliation between Snowflake outputs and source data and helped stabilize full history handling; final reporting refresh moved from daily to every 15 minutes.
 
 ## Education
 
 - **B.Eng., Data Engineering and Analytics - Lublin University of Technology**
-
-## Beyond work
-
-Beyond work, I am interested in new data solutions and in how this area evolves across different companies. In my free time, I read books (both non-fiction and fiction), keep developing technical skills, experiment in my homelab, go hiking, and follow films, series, and games.
 
 ## Links
 

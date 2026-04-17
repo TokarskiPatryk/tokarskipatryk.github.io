@@ -20,7 +20,7 @@ pagerSize = 10
 
 [params]
   author = "Patryk Tokarski"
-  info = "Data Engineer & Consultant"
+  info = "Data Engineer"
   description = "Patryk Tokarski's personal site"
   keywords = "Patryk Tokarski, data engineer, Python, SQL, Snowflake, Azure, blog"
   avatarURL = "images/avatar.jpg"
@@ -63,7 +63,7 @@ pagerSize = 10
 
   [languages.en.params]
     author = "Patryk Tokarski"
-    info = "Data Engineer & Consultant"
+    info = "Data Engineer"
     description = "English-first personal site for Patryk Tokarski"
     keywords = "Patryk Tokarski, data engineer, Python, SQL, Snowflake, Azure, blog"
 
@@ -73,18 +73,23 @@ pagerSize = 10
     url = "about/"
 
   [[languages.en.menu.main]]
-    name = "Blog"
+    name = "Cooperation"
     weight = 2
+    url = "cooperation/"
+
+  [[languages.en.menu.main]]
+    name = "Blog"
+    weight = 3
     url = "posts/"
 
   [[languages.en.menu.main]]
     name = "Projects"
-    weight = 3
+    weight = 4
     url = "projects/"
 
   [[languages.en.menu.main]]
     name = "Contact"
-    weight = 4
+    weight = 5
     url = "contact/"
 
 [languages.pl]
@@ -94,7 +99,7 @@ pagerSize = 10
 
   [languages.pl.params]
     author = "Patryk Tokarski"
-    info = "Inżynier Danych i Konsultant"
+    info = "Inżynier Danych"
     description = "Polskojęzyczna wersja strony Patryka Tokarskiego"
     keywords = "Patryk Tokarski, inżynier danych, Python, SQL, Snowflake, Azure, blog"
 
@@ -104,16 +109,21 @@ pagerSize = 10
     url = "about/"
 
   [[languages.pl.menu.main]]
-    name = "Blog"
+    name = "Współpraca"
     weight = 2
+    url = "cooperation/"
+
+  [[languages.pl.menu.main]]
+    name = "Blog"
+    weight = 3
     url = "posts/"
 
   [[languages.pl.menu.main]]
     name = "Projekty"
-    weight = 3
+    weight = 4
     url = "projects/"
 
   [[languages.pl.menu.main]]
     name = "Kontakt"
-    weight = 4
+    weight = 5
     url = "contact/"
