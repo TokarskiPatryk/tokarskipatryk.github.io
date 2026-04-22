@@ -1,12 +1,12 @@
 +++
 title = "Patryk Tokarski"
-description = "Data Engineer building cloud data platforms, automation, and analytics."
+description = "I help companies make sense of their data — from raw sources to ready-to-use."
 +++
 
-I build data platforms and automation that make reporting faster, cleaner, and easier to trust.
+I work on the technical side of data — pipelines, integrations, architecture, audits.
 
-My day-to-day work focuses on Python, R, SQL, Snowflake, dbt, Fivetran, Azure, and practical data quality checks.
+If your data is messy, slow, broken — or you're not using it at all yet — reach out.
 
-I am open to cooperation with companies in Poland and across the EU on data system design, implementation, and audits.
+[Projects](projects/) · [Contact](contact/) · [Blog](posts/)
 
-If you want the short version, start with [About](about/), browse the [Blog](posts/), or jump straight to [Projects](projects/) and [Contact](contact/).
+Poland · EU · US

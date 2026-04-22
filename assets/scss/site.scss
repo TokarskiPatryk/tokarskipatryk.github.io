@@ -3,6 +3,19 @@
   padding-bottom: 3rem;
 }
 
+section.container.centered {
+  flex-direction: column;
+}
+
+.about-content {
+  max-width: 56rem;
+  margin-top: 2.2rem;
+}
+
+.about-content p {
+  text-align: left;
+}
+
 .home-hero__intro {
   max-width: 50rem;
 }
@@ -10,6 +23,20 @@
 .home-hero__copy {
   font-size: 1.1rem;
   line-height: 1.75;
+}
+
+.container.centered .about-content p {
+  text-align: center;
+}
+
+.container.centered .about-content {
+  max-width: 40rem;
+}
+
+.container.centered .about-content p:last-child {
+  opacity: 0.85;
+  font-size: 0.85em;
+  margin-bottom: 0;
 }
 
 .home-hero__actions {

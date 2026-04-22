@@ -1,12 +1,12 @@
 +++
 title = "Patryk Tokarski"
-description = "Inżynier danych budujący platformy danych w chmurze, automatyzację i analitykę."
+description = "Pomagam firmom ogarnąć dane — od surowych danych źródłowych po gotowe do analizy."
 +++
 
-Buduję platformy danych i automatyzacje, które przyspieszają raportowanie, porządkują dane i zwiększają zaufanie do wyników.
+Zajmuję się danymi od strony technicznej — pipeline'y, integracje, architektura, audyty.  
 
-Na co dzień pracuję z Pythonem, R, SQL, Snowflake, dbt, Fivetran, Azure i praktycznymi kontrolami jakości danych.
+Jeśli Twoje dane są chaotyczne, wolne, nie działają — albo w ogóle jeszcze z nich nie korzystasz — odezwij się.
 
-Jestem otwarty na współpracę z firmami z Polski i UE przy projektowaniu, wdrażaniu oraz audytach systemów danych.
+[Projekty](projects/) · [Napisz do mnie](contact/) · [Blog](posts/)
 
-Jeśli chcesz szybkiego wprowadzenia, zacznij od sekcji [O mnie](about/), przejrzyj [Blog](posts/) albo przejdź od razu do [Projektów](projects/) i [Kontaktu](contact/).
+Polska · UE · US
