@@ -80,7 +80,9 @@ pagerSize = 10
   [[languages.en.menu.main]]
     name = "Blog"
     weight = 3
-    url = "posts/"
+    url = "https://dataengineeringtoolkit.substack.com/"
+    [languages.en.menu.main.params]
+      urlFunc = "safeURL"
 
   [[languages.en.menu.main]]
     name = "Projects"
@@ -116,7 +118,9 @@ pagerSize = 10
   [[languages.pl.menu.main]]
     name = "Blog"
     weight = 3
-    url = "posts/"
+    url = "https://dataengineeringtoolkit.substack.com/"
+    [languages.pl.menu.main.params]
+      urlFunc = "safeURL"
 
   [[languages.pl.menu.main]]
     name = "Projekty"
