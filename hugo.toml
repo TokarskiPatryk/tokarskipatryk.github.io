@@ -21,7 +21,7 @@ pagerSize = 10
 [params]
   author = "Patryk Tokarski"
   info = "Data Engineer"
-  description = "Patryk Tokarski's personal site"
+  description = "Data Engineer specializing in cloud data platforms, ETL/ELT pipelines, and data architecture."
   keywords = "Patryk Tokarski, data engineer, Python, SQL, Snowflake, Azure, blog"
   avatarURL = "images/avatar.jpg"
   since = 2026
@@ -64,7 +64,7 @@ pagerSize = 10
   [languages.en.params]
     author = "Patryk Tokarski"
     info = "Data Engineer"
-    description = "English-first personal site for Patryk Tokarski"
+    description = "Data Engineer building cloud data pipelines — Snowflake, dbt, Python. Based in Poland, working with EU and US companies."
     keywords = "Patryk Tokarski, data engineer, Python, SQL, Snowflake, Azure, blog"
 
   [[languages.en.menu.main]]
@@ -102,7 +102,7 @@ pagerSize = 10
   [languages.pl.params]
     author = "Patryk Tokarski"
     info = "Inżynier Danych"
-    description = "Polskojęzyczna wersja strony Patryka Tokarskiego"
+    description = "Inżynier Danych — projektuję i wdrażam systemy danych w chmurze. Snowflake, dbt, Python. Polska i UE."
     keywords = "Patryk Tokarski, inżynier danych, Python, SQL, Snowflake, Azure, blog"
 
   [[languages.pl.menu.main]]

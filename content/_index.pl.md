@@ -1,12 +1,14 @@
 +++
 title = "Patryk Tokarski"
-description = "Pomagam firmom ogarnąć dane — od surowych danych źródłowych po gotowe do analizy."
+description = "Inżynier Danych — projektuję i wdrażam systemy danych w chmurze. Snowflake, dbt, Python. Polska i UE."
 +++
 
-Zajmuję się danymi od strony technicznej — pipeline'y, integracje, architektura, audyty.  
+Buduję i utrzymuję systemy danych w chmurze — pipeline'y ETL/ELT, Snowflake, dbt, Python.
 
-Jeśli Twoje dane są chaotyczne, wolne, nie działają — albo w ogóle jeszcze z nich nie korzystasz — odezwij się.
+Pracuję z firmami w Polsce i UE przy wdrożeniach, audytach i projektowaniu architektury danych.
 
-[Projekty](projects/) · [Napisz do mnie](contact/) · [Blog](posts/)
+Jeśli Twoje dane są trudne w utrzymaniu, wolne albo po prostu nie działają jak powinny — [napisz](contact/).
+
+[O mnie](about/) · [Projekty](projects/) · [Współpraca](cooperation/) · [Blog](https://dataengineeringtoolkit.substack.com/)
 
 Polska · UE · US
