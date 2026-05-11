@@ -3,6 +3,14 @@ title = "Projekty"
 description = "Brama do wybranych projektów i repozytoriów."
 +++
 
-Na ten moment, wybrane projekty trzymam w osobnej kolekcji poza tą stroną.
+Tutaj znajdziesz główne miejsca, gdzie możesz zapoznać się z moją pracą:
 
-Aktualnym publicznym punktem startowym jest mój [profil GitHub](https://github.com/TokarskiPatryk), gdzie można znaleźć repozytoria i rzeczy, które udostępniam publicznie.
+**[Projekty z analizy danych →](https://tokarskipatryk.github.io/data-analysis/)**
+Zbiór projektów i notebooków z analizy danych.
+
+**[Lubelski Rower →](https://lubelskirower.tokarski.ovh/)**
+Projekt analizujący wykorzystanie publicznego roweru miejskiego w Lublinie.
+
+---
+
+Możesz też przeglądać mój [profil GitHub](https://github.com/TokarskiPatryk), gdzie udostępniam repozytoria i inne projekty.

@@ -3,6 +3,14 @@ title = "Projects"
 description = "Outbound link hub for selected work and repositories."
 +++
 
-At the moment, I keep a separate project collection outside this site.
+Here are the main places to explore my work:
 
-The current public hub is my [GitHub profile](https://github.com/TokarskiPatryk), where you can follow the repositories and work I share publicly.
+**[Data Analysis Projects →](https://tokarskipatryk.github.io/data-analysis/)**
+A collection of data analysis projects and notebooks.
+
+**[Lubelski Rower →](https://lubelskirower.tokarski.ovh/)**
+A project analyzing public bicycle sharing usage in Lublin.
+
+---
+
+You can also browse my [GitHub profile](https://github.com/TokarskiPatryk) for repositories and other work I share publicly.
