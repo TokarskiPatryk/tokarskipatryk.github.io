@@ -6,8 +6,7 @@ layout = "single"
 
 ## Profile
 
-Data Engineer at Sollers Consulting, focused on cloud data platforms, ETL/ELT delivery, and data quality.
-I am open to collaboration on data-related work in companies, especially around designing, implementing, and auditing data systems.
+Data Engineer, focused on cloud data platforms, ETL/ELT delivery, and data quality.
 
 ## Key competencies
 

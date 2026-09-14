@@ -6,8 +6,7 @@ layout = "single"
 
 ## Profil
 
-Jestem Inżynierem Danych w Sollers Consulting. Na co dzień pracuję przy platformach danych w chmurze, pipeline'ach ETL/ELT oraz obszarze data quality.
-Jestem otwarty na współpracę przy projektach związanych z danymi w firmach, szczególnie w obszarze projektowania, wdrażania oraz audytów systemów danych.
+Jestem Inżynierem Danych. Na co dzień pracuję przy platformach danych w chmurze, pipeline'ach ETL/ELT oraz obszarze data quality.
 
 ## Kluczowe kompetencje
 

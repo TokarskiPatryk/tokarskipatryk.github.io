@@ -68,16 +68,6 @@ pagerSize = 10
     keywords = "Patryk Tokarski, data engineer, Python, SQL, Snowflake, Azure, blog"
 
   [[languages.en.menu.main]]
-    name = "About me"
-    weight = 1
-    url = "about/"
-
-  [[languages.en.menu.main]]
-    name = "Cooperation"
-    weight = 2
-    url = "cooperation/"
-
-  [[languages.en.menu.main]]
     name = "Blog"
     weight = 3
     url = "https://dataengineeringtoolkit.substack.com/"
@@ -104,16 +94,6 @@ pagerSize = 10
     info = "Inżynier Danych"
     description = "Inżynier Danych — projektuję i wdrażam systemy danych w chmurze. Snowflake, dbt, Python. Polska i UE."
     keywords = "Patryk Tokarski, inżynier danych, Python, SQL, Snowflake, Azure, blog"
-
-  [[languages.pl.menu.main]]
-    name = "O mnie"
-    weight = 1
-    url = "about/"
-
-  [[languages.pl.menu.main]]
-    name = "Współpraca"
-    weight = 2
-    url = "cooperation/"
 
   [[languages.pl.menu.main]]
     name = "Blog"
